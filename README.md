@@ -18,7 +18,7 @@ The input variables are:
 10.  **sulphates** : Sulfur based additive used as antimicrobial and anti-oxidant agent. Contribute to SO2 levels
 11.  **alcohol** : The alcohol content in wine. It level depends of the initial sudar content before fermentation and the yeast used for fermentation.
 
-The output variable is:
+The output variable is:  
 12. **quality** : Based on sensory test. The score  is between 0 and 10.
 
 
