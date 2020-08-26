@@ -22,7 +22,7 @@ The output variable is:
 12. **quality** : Based on sensory test. The score  is between 0 and 10.
 
 
-The files in this respositories consist of:
+The files in this respositories consist of:  
 1. The EDA of the wine quality dataset
 2. Preprocessing. Which mainly about outliers handling
 3. Model selections. The models used are all regression and regressor models
