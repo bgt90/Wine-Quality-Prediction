@@ -22,8 +22,46 @@ The output variable is:
 12. **quality** : Based on sensory test. The score  is between 0 and 10.
 
 
-The files in this respositories consist of:  
-1. The EDA of the wine quality dataset
+The steps I took to do the predictions are: 
+1. Exploratory data analysis
 2. Preprocessing. Which mainly about outliers handling
 3. Model selections. The models used are all regression and regressor models
-4. A folder for HTML based dashboard by Flask library
+4. Deployment with flask.
+
+## Model Selection Results
+
+The best model evaluation (least RMSE and highest R square) was actually with Random Forest Regressor, but Random Forest result cannot be extrapolated, therefore, I use Ridge regression instead, a model known for handling multicoliearity, which is prevalent in my data. The best data set was after dropping outliers, with **initial RMSE 10.62% and R square 0.35**. 
+
+I did Hyperparameter tunning, with result as the following:
+
+> {'alpha': 0.5, 'fit_intercept': True, 'max_iter': None, 'solver': 'sparse_cg'}
+
+The tunning results improved the model to **RMSE 10.57 and R square0.36.
+**
+## Dashboard
+
+Flask was used to create the dashboard. There are 5 pages:
+
+### 1. Home
+
+
+![alt text](https://github.com/bgt90/Wine-Quality-Prediction/blob/master/home.png)
+
+### 2. Prediction
+
+![alt text](https://github.com/bgt90/Wine-Quality-Prediction/blob/master/prediction.png)
+
+### 3. Result
+
+![alt text](https://github.com/bgt90/Wine-Quality-Prediction/blob/master/result.png)
+
+### 4. Dataset
+
+![alt text](https://github.com/bgt90/Wine-Quality-Prediction/blob/master/dataset.png)
+
+### 5. Visualisation
+
+![alt text](https://github.com/bgt90/Wine-Quality-Prediction/blob/master/visualisation.png)
+
+
+
