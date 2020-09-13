@@ -36,8 +36,8 @@ I did Hyperparameter tunning, with result as the following:
 
 > {'alpha': 0.5, 'fit_intercept': True, 'max_iter': None, 'solver': 'sparse_cg'}
 
-The tunning results improved the model to **RMSE 10.57 and R square0.36.
-**
+The tunning results improved the model to **RMSE 10.57 and R square0.36**.
+
 ## Dashboard
 
 Flask was used to create the dashboard. There are 5 pages:
